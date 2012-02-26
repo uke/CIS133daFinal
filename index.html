@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="styles/reset.css">
+	<link rel="stylesheet" href="styles/layout.css">	
+	<title>Home</title>
+</head>
+<body>
+	<div id="everything">
+		<header id="pageHeader">
+			<img src="images/snail.JPG" alt="Snail">
+			<div id="pageHeaderTitles">
+				<h1>Jill's Pet Corral</h1>
+				<h2>Providing cheap crap on the interwebs since 2012</h2>
+			</div>
+			<hr />
+		</header>
+		<nav id="topnav">
+			<ul id="nav">
+				<li class="current"><a href="#">Home</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Products</a></li>
+				<li><a href="#">Contact</a></li>
+				<li><a href="#">Careers</a></li>
+			</ul>	
+		</nav>
+		<section id="mainContent">
+			<aside id="mainPageAside">
+				<h2>We have Magic Chickens!</h2>
+				<p>
+					Check out our standard model Magic Chicken. Hover over the image to see what it turns into when you feed it our 100% organic Magic Chicken Chow!
+				</p>
+				<img src="images/chicken.JPG" alt="Magic Chicken" id="chickenA" usemap="#menumap" alt="magic chicken image" name="mypic">
+				<map name="menumap">
+					<area shape="rect" coords="0,0,320,240" href="index.html" alt="This is an area on the image!"
+					onmouseover="mypic.src='images/rooster.jpg';"
+					onmouseout="mypic.src='images/chicken.jpg';" />
+				</map>
+
+			</aside>
+			<h1>Welcome to Jill's Pet Corral!</h1>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+			<p>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</p>
+		</section>
+		<footer id="pageFooter">
+			<p>Copyright &copy;2012 Jill's Pet Corral. All rights reserved.</p>
+		</footer>
+	</div>
+</body>
+</html>
