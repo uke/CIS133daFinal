@@ -25,9 +25,16 @@ em {font-style:italic;}
 
 /* -------------- Services -----------------*/
 .serviceArticle {float:left;padding:5px;width:300px;}
-#servicesSection h2 {font-size:1.4em; padding:1px;}
-.serviceArticle footer {color:#B27029;border-top:1px solid #999;}
+#servicesSection h2 {font-size:1.3em; padding:1px;}
+.serviceArticle footer {color:#666;border-top:1px solid #999;}
 #servicesSection hr {clear:both;visibility:hidden;width:100%;}
+#servicesSection p {color:#bbb;}
+
+/* -------------- Products ----------------- */
+.product h2 {font-size:1.3em; padding:0 0 0 5px ;}
+.product footer {margin-left:20px;color:#666;}
+#productsTable {height:150px;margin-top:10px;}
+
 /* ------------ nav bar styles ------------ */
 #nav {width:100%;float:left;margin: 0 0 3em 0;padding:0;list-style:none;
 							border-bottom:2px solid #222;border-top:1px solid #333;}
