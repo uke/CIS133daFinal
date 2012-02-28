@@ -3,7 +3,7 @@ body {font-family:Tahoma, Geneva, sans-serif;font-size:.85em;background-color:#3
 #everything {width:70%;margin:20px auto;}
 
 a {text-decoration:none;font-weight:bold;color:#298CB2;}
-a:hover {color:#B27129;}
+a:hover {color:#034965;}
 em {font-style:italic;}
 
 /* ----------- main styles ---------------- */
@@ -34,6 +34,10 @@ em {font-style:italic;}
 .product h2 {font-size:1.3em; padding:0 0 0 5px ;}
 .product footer {margin-left:20px;color:#666;}
 #productsTable {height:150px;margin-top:10px;}
+
+/* -------------- Contact ------------------ */
+#contactInfo {margin-left:80px;}
+#contactInfo h2 {font-size:1.3em; padding:5px 0 0 5px ;}
 
 /* ------------ nav bar styles ------------ */
 #nav {width:100%;float:left;margin: 0 0 3em 0;padding:0;list-style:none;
